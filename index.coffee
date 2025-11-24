@@ -5,7 +5,6 @@ quotes = require('./quotes.json')
 
 # 随机选择一句
 command: "echo \"#{quotes[Math.floor(Math.random() * quotes.length)]}\""
-
 # command: "echo '#{quotes[Math.floor(Math.random() * quotes.length)]}'"
 
 refreshFrequency: false
@@ -19,7 +18,7 @@ render: (output) ->
     max-width: 90%;
     color: rgba(255,255,255,0.97);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
     line-height: 1.4;
