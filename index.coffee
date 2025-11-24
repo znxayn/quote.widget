@@ -4,7 +4,9 @@
 quotes = require('./quotes.json')
 
 # 随机选择一句
-command: "echo '#{quotes[Math.floor(Math.random() * quotes.length)]}'"
+command: "echo \"#{quotes[Math.floor(Math.random() * quotes.length)]}\""
+
+# command: "echo '#{quotes[Math.floor(Math.random() * quotes.length)]}'"
 
 refreshFrequency: false
 
